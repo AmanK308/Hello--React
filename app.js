@@ -1,17 +1,3 @@
-//singleElement
-// const heading = React.createElement('h1',{id:"heading"},"Hello World from React!"); // react element
-
-
-
-//Create NestedElements
-/* 
-<div id="parent">
-   <div id="child">
-     <h1>this is h1 tag</h1>
-     <h2> this is h2 tag</h2>
-   </div>
- </div>
- */
 
 
 const parent = React.createElement
@@ -59,6 +45,3 @@ const parent = React.createElement
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(parent);
-// root.render();
-console.log(parent);
-console.log(root);
